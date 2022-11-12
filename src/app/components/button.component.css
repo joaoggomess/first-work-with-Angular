@@ -1,0 +1,8 @@
+button {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+  font-style: italic;
+  font-weight: 700;
+  border-radius: 30px;
+  background-color: bisque;
+  color: blueviolet;
+}

@@ -1,0 +1,16 @@
+<div id="form">
+  <label for="email-entry">Insert your email</label>
+  <input
+    class="entry"
+    type="email"
+    name="email-entry"
+    [value]="placeholder"
+    (input)="placeholder = $any($event.target).value"
+  />
+
+  <label for="pass-entry">Insert your pass</label>
+  <input class="entry" type="email" name="pass-entry" [(ngModel)]="placepass" />
+</div>
+
+<p>{{ placepass }}</p>
+<p>{{ placeholder }}</p>

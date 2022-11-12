@@ -1,0 +1,20 @@
+.entry {
+  color: black;
+  background-color: white;
+  margin: 2px;
+}
+
+p {
+  color: white;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label {
+  color: white;
+  padding-left: 8.5rem;
+}
